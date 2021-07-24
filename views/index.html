@@ -25,13 +25,13 @@
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
                     <h1 class="brand">
-                        <a href="index.html"> A Hub for Hackers </a>
+                        <a href="index.html"> A Hub for <strong> Hackers </strong> </a>
                     </h1>
                     <!-- navigation -->
                     <nav class="pull-right nav-collapse collapse">
                         <ul id="menu-main" class="nav">
                             <li><a title="team" href="#about"> About </a></li>
-                            <li><a title="services" href="#services"> Services </a></li>
+                            <li><a title="services" href="#starter-kits"> Starter Kits </a></li>
                             <li><a title="works" href="#works"> Works </a></li>
                             <li><a title="blog" href="#blog"> Blog </a></li>
                             <li><a title="contact" href="#contact"> Contact </a></li>
@@ -45,6 +45,10 @@
     <!-- Header area -->
     <div id="header-wrapper" class="header-slider">
         <header class="clearfix">
+            <video autoplay muted loop id="video-background">
+                <source src="../videos/rocket.mp4" type="video/mp4">
+            </video>
+
             <div class="logo">
                 <img src="../images/logo.jpg" alt="" />
             </div>
@@ -74,6 +78,7 @@
                     </div>
                 </div>
             </div>
+
         </header>
     </div>
     <!-- spacer section -->
@@ -82,11 +87,11 @@
             <div class="row">
                 <div class="span6 alignright flyLeft">
                     <blockquote class="large">
-                        There's huge space beetween creativity and imagination <cite>Mark Simmons, Nett Media</cite>
+                        Those who can imagine anything, can create the impossible. <cite> Alan Turing </cite>
                     </blockquote>
                 </div>
                 <div class="span6 aligncenter flyRight">
-                    <i class="icon-coffee icon-10x"></i>
+                    <i class="icon-lightbulb icon-20x"></i>
                 </div>
             </div>
         </div>
@@ -94,28 +99,33 @@
     <!-- end spacer section -->
     <!-- section: team -->
     <section id="about" class="section">
-        <div class="container">
-            <h4>Who We Are</h4>
+        <div id="purpose" class="container">
+            <h4 id="purpose-heading"> Purpose </h4>
             <div class="row">
-                <div class="span4 offset1">
+                <div id="purpose-statement">
                     <div>
-                        <h2>We live with <strong>creativity</strong></h2>
                         <p>
-                            Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe
-                            al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.
+                            Hackathons enable hands-on experiences for people to collaborate, design, and bring an innovative idea to life with code. However,many new hackers and beginnersfind a difficult time locating the right resources to help them get started.
+                        </p>
+                        <p>
+                            This online hub for hackers serves just that. Not only can hackers from all skill levels and technology expertise find starter code and useful references, current hackers can also send invitations to their friends to partake in recommendedhackathons based
+                            ontheir own interests.
+                        </p>
+                        <p>
+                            If it is someone's birthday,we are especially excited to provide a digital birthday card with potential sponsored prizes and of course future hackathons that may interest the lucky recipient.
                         </p>
                     </div>
                 </div>
                 <div class="span6">
                     <div class="aligncenter">
-                        <img src="img/icons/creativity.png" alt="" />
+                        <img src="../images/icons/creativity.png" alt="" />
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="span2 offset1 flyIn">
                     <div class="people">
-                        <img class="team-thumb img-circle" src="img/team/img-1.jpg" alt="" />
+                        <img class="team-thumb img-circle" src="../images/team/img-1.jpg" alt="" />
                         <h3>John Doe</h3>
                         <p>
                             Art director
@@ -124,7 +134,7 @@
                 </div>
                 <div class="span2 flyIn">
                     <div class="people">
-                        <img class="team-thumb img-circle" src="img/team/img-2.jpg" alt="" />
+                        <img class="team-thumb img-circle" src="../images/team/img-2.jpg" alt="" />
                         <h3>Mike Doe</h3>
                         <p>
                             Web developer
@@ -133,7 +143,7 @@
                 </div>
                 <div class="span2 flyIn">
                     <div class="people">
-                        <img class="team-thumb img-circle" src="img/team/img-3.jpg" alt="" />
+                        <img class="team-thumb img-circle" src="../images/team/img-3.jpg" alt="" />
                         <h3>Neil Doe</h3>
                         <p>
                             Web designer
@@ -142,7 +152,7 @@
                 </div>
                 <div class="span2 flyIn">
                     <div class="people">
-                        <img class="team-thumb img-circle" src="img/team/img-4.jpg" alt="" />
+                        <img class="team-thumb img-circle" src="../images/team/img-4.jpg" alt="" />
                         <h3>Mark Joe</h3>
                         <p>
                             UI designer
@@ -151,7 +161,7 @@
                 </div>
                 <div class="span2 flyIn">
                     <div class="people">
-                        <img class="team-thumb img-circle" src="img/team/img-5.jpg" alt="" />
+                        <img class="team-thumb img-circle" src="../images/team/img-5.jpg" alt="" />
                         <h3>Stephen B</h3>
                         <p>
                             Digital imaging
@@ -163,25 +173,25 @@
         <!-- /.container -->
     </section>
     <!-- end section: team -->
-    <!-- section: services -->
-    <section id="services" class="section orange">
+    <!-- section: starter-kits -->
+    <section id="starter-kits" class="section orange">
         <div class="container">
-            <h4>Services</h4>
+            <h4> Starter Kits </h4>
             <!-- Four columns -->
             <div class="row">
                 <div class="span3 animated-fast flyIn">
                     <div class="service-box">
-                        <img src="img/icons/laptop.png" alt="" />
-                        <h2>Web design</h2>
+                        <img src="../images/icons/laptop.png" alt="" />
+                        <h2> Web Application </h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
                         </p>
                     </div>
                 </div>
                 <div class="span3 animated flyIn">
                     <div class="service-box">
-                        <img src="img/icons/lab.png" alt="" />
-                        <h2>Web development</h2>
+                        <img src="../images/icons/lab.png" alt="" />
+                        <h2> Data Science + ML </h2>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </p>
@@ -189,8 +199,8 @@
                 </div>
                 <div class="span3 animated-fast flyIn">
                     <div class="service-box">
-                        <img src="img/icons/camera.png" alt="" />
-                        <h2>Photography</h2>
+                        <img src="../images/icons/database.png" alt="" />
+                        <h2> Databases </h2>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </p>
@@ -198,8 +208,8 @@
                 </div>
                 <div class="span3 animated-slow flyIn">
                     <div class="service-box">
-                        <img src="img/icons/basket.png" alt="" />
-                        <h2>Ecommerce</h2>
+                        <img src="../images/icons/game-dev.png" alt="" />
+                        <h2> Game Development </h2>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </p>
@@ -208,7 +218,7 @@
             </div>
         </div>
     </section>
-    <!-- end section: services -->
+    <!-- end section: starter-kits -->
     <!-- section: works -->
     <section id="works" class="section">
         <div class="container clearfix">
@@ -429,7 +439,7 @@
                 <div class="span3">
                     <div class="home-post">
                         <div class="post-image">
-                            <img class="max-img" src="img/blog/img1.jpg" alt="" />
+                            <img class="max-img" src="../images/blog/img1.jpg" alt="" />
                         </div>
                         <div class="post-meta">
                             <i class="icon-file icon-2x"></i>
@@ -448,7 +458,7 @@
                 <div class="span3">
                     <div class="home-post">
                         <div class="post-image">
-                            <img class="max-img" src="img/blog/img2.jpg" alt="" />
+                            <img class="max-img" src="../images/blog/img2.jpg" alt="" />
                         </div>
                         <div class="post-meta">
                             <i class="icon-file icon-2x"></i>
@@ -467,7 +477,7 @@
                 <div class="span3">
                     <div class="home-post">
                         <div class="post-image">
-                            <img class="max-img" src="img/blog/img3.jpg" alt="" />
+                            <img class="max-img" src="../images/blog/img3.jpg" alt="" />
                         </div>
                         <div class="post-meta">
                             <i class="icon-file icon-2x"></i>
@@ -486,7 +496,7 @@
                 <div class="span3">
                     <div class="home-post">
                         <div class="post-image">
-                            <img class="max-img" src="img/blog/img4.jpg" alt="" />
+                            <img class="max-img" src="../images/blog/img4.jpg" alt="" />
                         </div>
                         <div class="post-meta">
                             <i class="icon-file icon-2x"></i>
@@ -516,8 +526,7 @@
         <div class="container">
             <h4>Get in Touch</h4>
             <p>
-                Reque facer nostro et ius, cu persius mnesarchum disputando eam, clita prompta et mel vidisse phaedrum pri et. Facilisis posidonium ex his. Mutat iudico vis in, mea aeque tamquam scripserit an, mea eu ignota viderer probatus. Lorem legere consetetur ei
-                eum. Sumo aeque assentior te eam, pri nominati posidonium consttuam
+                Feel free to send any question, comments, and suggestions.
             </p>
             <div class="blankdivider30">
             </div>
@@ -567,18 +576,6 @@
                         <li><a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a></li>
                         <li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
                     </ul>
-                    <p class="copyright">
-                        &copy; Maxim Theme. All rights reserved.
-                        <div class="credits">
-                            <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maxim
-              -->
-                            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                        </div>
-                    </p>
                 </div>
             </div>
         </div>
