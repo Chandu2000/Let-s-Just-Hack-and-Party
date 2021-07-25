@@ -1,4 +1,11 @@
 # LET'S JUST HACK AND PARTY
+----------------------------------------------------------------------------------------------------
+![Python3](https://img.shields.io/badge/language-python3-yellow?style=plastic&logo=appveyor)
+![HTML/CSS/JS](https://img.shields.io/badge/language-HTML/CSS/JS-orange)
+
+![Google Cloud](https://img.shields.io/badge/platform-Google%20Cloud-skyblue?style=for-the-badge&logo=appveyor)
+![DataStax Astra](https://img.shields.io/badge/database-DataStax%20Astra-darkblue?style=for-the-badge&logo=appveyor)
+----------------------------------------------------------------------------------------------------
 
 ## INSPIRATION🌸✨👌
 
