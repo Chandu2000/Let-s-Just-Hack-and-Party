@@ -15,7 +15,16 @@
     <link rel="shortcut icon" href="../images/favicon.ico">
 </head>
 
+
 <body>
+    <!-- chatbot -->
+    <div id="chatbot">
+        <h2>
+            Virtual Assistant
+        </h2>
+        <input type="text">
+    </div>
+
     <!-- navbar -->
     <div class="navbar-wrapper">
         <div class="navbar navbar-inverse navbar-fixed-top">
@@ -30,9 +39,11 @@
                     <!-- navigation -->
                     <nav class="pull-right nav-collapse collapse">
                         <ul id="menu-main" class="nav">
-                            <li><a title="team" href="#about"> About </a></li>
+                            <li>
+                                <a title="team" href="#purpose"> Purpose </a>
+                            </li>
                             <li><a title="services" href="#starter-kits"> Starter Kits </a></li>
-                            <li><a title="works" href="#works"> Works </a></li>
+                            <li><a title="featured-projects" href="#featured-projects"> featured-projects </a></li>
                             <li><a title="blog" href="#blog"> Blog </a></li>
                             <li><a title="contact" href="#contact"> Contact </a></li>
                             <li><a href="page.html">Page</a></li>
@@ -81,10 +92,15 @@
 
         </header>
     </div>
+
+
     <!-- spacer section -->
     <section class="spacer green">
         <div class="container">
             <div class="row">
+
+
+
                 <div class="span6 alignright flyLeft">
                     <blockquote class="large">
                         Those who can imagine anything, can create the impossible. <cite> Alan Turing </cite>
@@ -116,58 +132,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="span6">
-                    <div class="aligncenter">
-                        <img src="../images/icons/creativity.png" alt="" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="span2 offset1 flyIn">
-                    <div class="people">
-                        <img class="team-thumb img-circle" src="../images/team/img-1.jpg" alt="" />
-                        <h3>John Doe</h3>
-                        <p>
-                            Art director
-                        </p>
-                    </div>
-                </div>
-                <div class="span2 flyIn">
-                    <div class="people">
-                        <img class="team-thumb img-circle" src="../images/team/img-2.jpg" alt="" />
-                        <h3>Mike Doe</h3>
-                        <p>
-                            Web developer
-                        </p>
-                    </div>
-                </div>
-                <div class="span2 flyIn">
-                    <div class="people">
-                        <img class="team-thumb img-circle" src="../images/team/img-3.jpg" alt="" />
-                        <h3>Neil Doe</h3>
-                        <p>
-                            Web designer
-                        </p>
-                    </div>
-                </div>
-                <div class="span2 flyIn">
-                    <div class="people">
-                        <img class="team-thumb img-circle" src="../images/team/img-4.jpg" alt="" />
-                        <h3>Mark Joe</h3>
-                        <p>
-                            UI designer
-                        </p>
-                    </div>
-                </div>
-                <div class="span2 flyIn">
-                    <div class="people">
-                        <img class="team-thumb img-circle" src="../images/team/img-5.jpg" alt="" />
-                        <h3>Stephen B</h3>
-                        <p>
-                            Digital imaging
-                        </p>
-                    </div>
-                </div>
+
             </div>
         </div>
         <!-- /.container -->
@@ -182,7 +147,7 @@
                 <div class="span3 animated-fast flyIn">
                     <div class="service-box">
                         <img src="../images/icons/laptop.png" alt="" />
-                        <h2> Web Application </h2>
+                        <h2> Web Development </h2>
                         <p>
 
                         </p>
@@ -219,221 +184,194 @@
         </div>
     </section>
     <!-- end section: starter-kits -->
-    <!-- section: works -->
-    <section id="works" class="section">
+    <!-- section: featured-projects -->
+    <section id="featured-projects" class="section">
         <div class="container clearfix">
-            <h4>Our Works</h4>
-            <!-- portfolio filter -->
-            <div class="row">
-                <div id="filters" class="span12">
-                    <ul class="clearfix">
-                        <li>
-                            <a href="#" data-filter="*" class="active">
-                                <h5>All</h5>
+            <h4> Featured Projects </h4>
+
+        </div>
+        <div class="row">
+            <div class="span12">
+                <div id="portfolio-wrap">
+                    <!-- portfolio item -->
+                    <div class="portfolio-item grid print photography">
+                        <div class="portfolio">
+                            <a href="../images/featured-projects/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+                                <img src="../images/featured-projects/1.png" alt="" />
+                                <div class="portfolio-overlay">
+                                    <div class="thumb-info">
+                                        <h5>Portfolio name</h5>
+                                        <i class="icon-plus icon-2x"></i>
+                                    </div>
+                                </div>
                             </a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".web">
-                                <h5>Web</h5>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".print">
-                                <h5>Print</h5>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".design">
-                                <h5>Design</h5>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".photography">
-                                <h5>Photography</h5>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- END PORTFOLIO FILTERING -->
-            </div>
-            <div class="row">
-                <div class="span12">
-                    <div id="portfolio-wrap">
-                        <!-- portfolio item -->
-                        <div class="portfolio-item grid print photography">
-                            <div class="portfolio">
-                                <a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-                                    <img src="img/works/1.png" alt="" />
-                                    <div class="portfolio-overlay">
-                                        <div class="thumb-info">
-                                            <h5>Portfolio name</h5>
-                                            <i class="icon-plus icon-2x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
                         </div>
-                        <!-- end portfolio item -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item grid print design web">
-                            <div class="portfolio">
-                                <a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-                                    <img src="img/works/2.png" alt="" />
-                                    <div class="portfolio-overlay">
-                                        <div class="thumb-info">
-                                            <h5>Portfolio name</h5>
-                                            <i class="icon-plus icon-2x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end portfolio item -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item grid print design">
-                            <div class="portfolio">
-                                <a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-                                    <img src="img/works/3.png" alt="" />
-                                    <div class="portfolio-overlay">
-                                        <div class="thumb-info">
-                                            <h5>Portfolio name</h5>
-                                            <i class="icon-plus icon-2x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end portfolio item -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item grid photography web">
-                            <div class="portfolio">
-                                <a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-                                    <img src="img/works/4.png" alt="" />
-                                    <div class="portfolio-overlay">
-                                        <div class="thumb-info">
-                                            <h5>Portfolio name</h5>
-                                            <i class="icon-plus icon-2x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end portfolio item -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item grid photography web">
-                            <div class="portfolio">
-                                <a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-                                    <img src="img/works/5.png" alt="" />
-                                    <div class="portfolio-overlay">
-                                        <div class="thumb-info">
-                                            <h5>Portfolio name</h5>
-                                            <i class="icon-plus icon-2x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end portfolio item -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item grid photography web">
-                            <div class="portfolio">
-                                <a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-                                    <img src="img/works/6.png" alt="" />
-                                    <div class="portfolio-overlay">
-                                        <div class="thumb-info">
-                                            <h5>Portfolio name</h5>
-                                            <i class="icon-plus icon-2x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end portfolio item -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item grid photography web">
-                            <div class="portfolio">
-                                <a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-                                    <img src="img/works/7.png" alt="" />
-                                    <div class="portfolio-overlay">
-                                        <div class="thumb-info">
-                                            <h5>Portfolio name</h5>
-                                            <i class="icon-plus icon-2x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end portfolio item -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item grid photography">
-                            <div class="portfolio">
-                                <a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-                                    <img src="img/works/8.png" alt="" />
-                                    <div class="portfolio-overlay">
-                                        <div class="thumb-info">
-                                            <h5>Portfolio name</h5>
-                                            <i class="icon-plus icon-2x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end portfolio item -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item grid photography web">
-                            <div class="portfolio">
-                                <a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-                                    <img src="img/works/9.png" alt="" />
-                                    <div class="portfolio-overlay">
-                                        <div class="thumb-info">
-                                            <h5>Portfolio name</h5>
-                                            <i class="icon-plus icon-2x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end portfolio item -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item grid design web">
-                            <div class="portfolio">
-                                <a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-                                    <img src="img/works/10.png" alt="" />
-                                    <div class="portfolio-overlay">
-                                        <div class="thumb-info">
-                                            <h5>Portfolio name</h5>
-                                            <i class="icon-plus icon-2x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end portfolio item -->
                     </div>
+                    <!-- end portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item grid print design web">
+                        <div class="portfolio">
+                            <a href="../images/featured-projects/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+                                <img src="../images/featured-projects/2.png" alt="" />
+                                <div class="portfolio-overlay">
+                                    <div class="thumb-info">
+                                        <h5>Portfolio name</h5>
+                                        <i class="icon-plus icon-2x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item grid print design">
+                        <div class="portfolio">
+                            <a href="../images/featured-projects/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+                                <img src="../images/featured-projects/3.png" alt="" />
+                                <div class="portfolio-overlay">
+                                    <div class="thumb-info">
+                                        <h5>Portfolio name</h5>
+                                        <i class="icon-plus icon-2x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item grid photography web">
+                        <div class="portfolio">
+                            <a href="../images/featured-projects/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+                                <img src="../images/featured-projects/4.png" alt="" />
+                                <div class="portfolio-overlay">
+                                    <div class="thumb-info">
+                                        <h5>Portfolio name</h5>
+                                        <i class="icon-plus icon-2x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item grid photography web">
+                        <div class="portfolio">
+                            <a href="../images/featured-projects/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+                                <img src="../images/featured-projects/5.png" alt="" />
+                                <div class="portfolio-overlay">
+                                    <div class="thumb-info">
+                                        <h5>Portfolio name</h5>
+                                        <i class="icon-plus icon-2x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item grid photography web">
+                        <div class="portfolio">
+                            <a href="../images/featured-projects/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+                                <img src="../images/featured-projects/6.png" alt="" />
+                                <div class="portfolio-overlay">
+                                    <div class="thumb-info">
+                                        <h5>Portfolio name</h5>
+                                        <i class="icon-plus icon-2x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item grid photography web">
+                        <div class="portfolio">
+                            <a href="../images/featured-projects/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+                                <img src="../images/featured-projects/7.png" alt="" />
+                                <div class="portfolio-overlay">
+                                    <div class="thumb-info">
+                                        <h5>Portfolio name</h5>
+                                        <i class="icon-plus icon-2x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item grid photography">
+                        <div class="portfolio">
+                            <a href="../images/featured-projects/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+                                <img src="../images/featured-projects/8.png" alt="" />
+                                <div class="portfolio-overlay">
+                                    <div class="thumb-info">
+                                        <h5>Portfolio name</h5>
+                                        <i class="icon-plus icon-2x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item grid photography web">
+                        <div class="portfolio">
+                            <a href="../images/featured-projects/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+                                <img src="../images/featured-projects/9.png" alt="" />
+                                <div class="portfolio-overlay">
+                                    <div class="thumb-info">
+                                        <h5>Portfolio name</h5>
+                                        <i class="icon-plus icon-2x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- portfolio item -->
+                    <div class="portfolio-item grid design web">
+                        <div class="portfolio">
+                            <a href="../images/featured-projects/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+                                <img src="../images/featured-projects/10.png" alt="" />
+                                <div class="portfolio-overlay">
+                                    <div class="thumb-info">
+                                        <h5>Portfolio name</h5>
+                                        <i class="icon-plus icon-2x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
                 </div>
             </div>
         </div>
+        </div>
     </section>
+
     <!-- spacer section -->
     <section class="spacer bg3">
         <div class="container">
             <div class="row">
                 <div class="span12 aligncenter flyLeft">
                     <blockquote class="large">
-                        We are an established and trusted web agency with a reputation for commitment and high integrity
+                        Let's make a surprise birthday card for a close friend!
                     </blockquote>
                 </div>
                 <div class="span12 aligncenter flyRight">
-                    <i class="icon-rocket icon-10x"></i>
+                    <button id="birthday">
+                        <i class="icon-rocket icon-10x">  </i> 
+                        <span> Launch Birthday Card </span>
+                    </button>
                 </div>
             </div>
-        </div>
     </section>
     <!-- end spacer section -->
+
     <!-- section: blog -->
     <section id="blog" class="section">
         <div class="container">
-            <h4>Our Blog</h4>
+            <h4> Blog </h4>
             <!-- Three columns -->
             <div class="row">
                 <div class="span3">
@@ -570,12 +508,7 @@
         <div class="container">
             <div class="row">
                 <div class="span6 offset3">
-                    <ul class="social-networks">
-                        <li><a href="#"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
-                        <li><a href="#"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
-                        <li><a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a></li>
-                        <li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
-                    </ul>
+
                 </div>
             </div>
         </div>

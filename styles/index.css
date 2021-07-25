@@ -41,6 +41,50 @@
     width: 100%;
 }
 
+#chatbot {
+    background-color: darkcyan;
+    right: 5%;
+    height: 20%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+}
+
+#chatbot>h2 {
+    color: cornflowerblue;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 10px;
+    top: 10%;
+    position: absolute;
+}
+
+#chatbot>input {
+    background-color: lightskyblue;
+    color: whitesmoke;
+    bottom: 0;
+    margin: 10px;
+    width: 90%;
+    position: absolute;
+}
+
+#birthday:link,
+#birthday:visited,
+#birthday:hover,
+#birthday:active {
+    color: goldenrod;
+}
+
+#birthday {
+    border: none;
+    color: gold;
+    background-color: rgba(20, 20, 240, 0.3);
+    font-size: 48px;
+    font-weight: bolder;
+    height: 30%;
+    position: relative;
+}
+
 
 /* General  */
 
@@ -596,7 +640,8 @@ section.spacer.bg2 {
 }
 
 section.spacer.bg3 {
-    background: url(../images/bg/bg-3.jpg) 50% 0 no-repeat fixed;
+    background-image: url(../gifs/balloons.gif);
+    background-size: cover;
     width: 100%;
     height: auto;
     margin: 0;
@@ -612,9 +657,10 @@ section.spacer blockquote cite {
 }
 
 
-/* section works */
+/* section featured-projects */
 
-#works h4 {
+#featured-projects h4 {
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -675,9 +721,10 @@ section.spacer blockquote cite {
 /* portfolio wrap - grid */
 
 #portfolio-wrap {
+    left: 5%;
     position: relative;
     padding: 0;
-    width: 100.1%;
+    width: 100%;
     margin: 0 auto;
     display: block;
 }
@@ -966,7 +1013,7 @@ section#blog {
 
 /* section about */
 
-section#about {
+section#purpose {
     background: url("../images/question_marks.jpg");
     background-size: fill;
 }
@@ -1833,7 +1880,7 @@ cite {
     section.section {
         padding: 1em 0;
     }
-    #works .container {
+    #featured-projects .container {
         top: 0 !important;
     }
     .max-img {
