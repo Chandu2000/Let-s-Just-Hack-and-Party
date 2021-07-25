@@ -1,5 +1,5 @@
 function birthday() {
-    window.location = "../views/birthday.html"
+    window.location = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Fennec2000GH/Lets-Just-Hack-and-Party/main/views/birthday.html"
 }
 
 function chat() {
