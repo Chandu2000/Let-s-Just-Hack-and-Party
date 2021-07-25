@@ -83,6 +83,10 @@ li a:active {
     font-weight: bolder;
 }
 
+li a:nth-child(2) {
+    color: gold;
+}
+
 #birthday:link,
 #birthday:visited,
 #birthday:hover,
