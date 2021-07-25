@@ -68,6 +68,12 @@
     position: absolute;
 }
 
+#starter-kits ul {
+    color: white;
+    font-weight: bolder;
+    list-style-type: none;
+}
+
 #birthday:link,
 #birthday:visited,
 #birthday:hover,
@@ -176,6 +182,8 @@ a.scrollup i:hover {
 
 .row {
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
 .row .row {
