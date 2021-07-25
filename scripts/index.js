@@ -1,6 +1,8 @@
+function birthday() {
+    window.location.href = "file:///D:/share/Lets-Just-Hack-and-Party/views/birthday.html"
+}
+
 function chat() {
-    // var chatMail = document.querySelector("#");
-    // var chat = chatMail.children;
     var messageInput = document.querySelector("#message-input");
     var messageBar = document.querySelector("#message-bar");
     var chat = messageInput.value;
