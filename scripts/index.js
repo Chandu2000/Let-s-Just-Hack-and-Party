@@ -1,5 +1,5 @@
 function birthday() {
-    window.location.href = "file:///D:/share/Lets-Just-Hack-and-Party/views/birthday.html"
+    window.location = "https://raw.githubusercontent.com/Fennec2000GH/Lets-Just-Hack-and-Party/main/views/birthday.html"
 }
 
 function chat() {
