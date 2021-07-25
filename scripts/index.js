@@ -1,5 +1,5 @@
 function birthday() {
-    window.location = "./views/birthday.html"
+    window.location = "../views/birthday.html"
 }
 
 function chat() {
