@@ -481,9 +481,9 @@ ul#menu-main>li>a:focus {
 }
 
 .logo>img {
-    left: 30%;
-    height: 400px;
-    width: 40%;
+    left: 40%;
+    height: 360px;
+    width: 20%;
     position: absolute;
 }
 
@@ -512,11 +512,10 @@ header .logo {
     margin-bottom: 0px;
     text-align: center;
     line-height: 1;
-    color: #fff;
+    color: cornflowerblue;
 }
 
 #main-flexslider.flexslider {
-    /* position: relative; */
     top: 480px;
     margin: 0;
     background: none;
@@ -721,7 +720,7 @@ section.spacer blockquote cite {
 /* portfolio wrap - grid */
 
 #portfolio-wrap {
-    left: 5%;
+    left: 50%;
     position: relative;
     padding: 0;
     width: 100%;
@@ -1493,8 +1492,8 @@ i.icon-white {
     border-radius: 8px;
 }
 
-.icon-10x {
-    font-size: 10em;
+.icon-size {
+    font-size: 20em;
 }
 
 .icon-6x.icon-border {
